@@ -2,7 +2,7 @@ import java.applet.Applet;
 import java.awt.Graphics;
 
 // Every applet must extend the Applet class
-public class HelloWorld extends Applet {
+public class HelloApplet extends Applet {
     
     // The paint method is used to display graphics and text
     @Override
