@@ -9,7 +9,8 @@ RUN apt-get update && \
         xvfb \
         x11vnc \
         novnc \
-        && rm -rf /var/lib/apt/lists/*
+        websockify \
+    && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
